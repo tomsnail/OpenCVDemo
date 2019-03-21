@@ -1,10 +1,11 @@
 import cv2
 import numpy as np
 import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 debug = 1
 
-matplotlib.rcParams['font.family'] = 'SimHei'
+matplotlib.rcParams['font.family'] = 'Hei'
 
 def canny():
     src = cv2.imread('kk.jpg')

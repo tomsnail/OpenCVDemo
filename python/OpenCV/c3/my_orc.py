@@ -2,10 +2,11 @@ import cv2
 import pytesseract
 from PIL import Image
 import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 debug = 1
 
-matplotlib.rcParams['font.family'] = 'SimHei'
+matplotlib.rcParams['font.family'] = 'Hei'
 
 
 

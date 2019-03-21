@@ -3,10 +3,11 @@ import pytesseract
 import numpy as np
 from PIL import Image
 import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 debug = 1
 
-matplotlib.rcParams['font.family'] = 'SimHei'
+matplotlib.rcParams['font.family'] = 'Hei'
 
 def recognizeChineseText():
     src = cv2.imread('s6.jpg')
@@ -16,6 +17,7 @@ def recognizeChineseText():
     f, axarr = plt.subplots(1, 1)
     axarr.imshow(cv2.imread('s6.jpg'))
     axarr.set_title(text)
+    plt.show()
 
 
 def recognizeChineseContext(src):
@@ -30,6 +32,7 @@ def recognizeEnglishText():
     f, axarr = plt.subplots(1, 1)
     axarr.imshow(cv2.imread('s7.jpg'))
     axarr.set_title(text)
+    plt.show()
 
 
 def recognizeIDCardText(srcImg=None):

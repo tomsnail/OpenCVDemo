@@ -1,11 +1,12 @@
 import cv2
 import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pytesseract
 from PIL import Image
 debug = 1
-matplotlib.rcParams['font.family'] = 'SimHei'
+matplotlib.rcParams['font.family'] = 'Hei'
 
 def grayImg(img):
     # 转化为灰度图

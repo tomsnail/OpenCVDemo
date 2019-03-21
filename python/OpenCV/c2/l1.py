@@ -1,14 +1,16 @@
 import cv2
 import numpy as np
 import matplotlib
+matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 debug = 1
 
-matplotlib.rcParams['font.family'] = 'SimHei'
+matplotlib.rcParams['font.family'] = 'Hei'
 
 
 
 #通道分离与合并
+
 def td():
     img = cv2.imread('kk.jpg')
     mv = cv2.split(img)
