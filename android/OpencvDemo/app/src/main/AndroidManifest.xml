@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gloomyfish.opencvdemo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SectionsActivity" />
+        <activity android:name="com.zkjd.activties.C1Activity" />
+        <activity android:name="com.zkjd.activties.C2Activity" />
+        <activity android:name="com.zkjd.activties.C3Activity" />
+        <activity android:name="com.zkjd.activties.C4Activity" />
+        <activity android:name="com.zkjd.activties.C5Activity" />
+        <activity android:name="com.zkjd.activties.C6Activity" />
+        <activity android:name="com.zkjd.activties.C7Activity" />
+        <activity android:name="com.zkjd.activties.C8Activity" />
+        <activity android:name="com.zkjd.activties.C9Activity" />
+        <activity android:name="com.zkjd.activties.C10Activity" />
+        <activity android:name="com.zkjd.activties.C11Activity" />
+        <activity android:name="com.zkjd.activties.C12Activity" />
+        <activity android:name="com.zkjd.activties.C13Activity" />
+        <activity android:name="com.zkjd.activties.C14Activity" />
+        <activity android:name="com.zkjd.activties.C15Activity" />
+        <activity android:name="com.zkjd.activties.C16Activity" />
+        <activity android:name="com.zkjd.activties.C17Activity" />
+        <activity
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            android:name="com.gloomyfish.opencv.plugin.c.UploadImageActivity"
+            />
+        <activity
+            android:name="com.lzy.imagepicker.ui.ImagePreviewDelActivity"
+            android:theme="@style/ImagePickerThemeFullScreen"/>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>

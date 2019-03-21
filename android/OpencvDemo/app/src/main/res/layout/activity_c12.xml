@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    tools:context="com.zkjd.activties.C12Activity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择图片"
+
+            android:id="@+id/select_photo_btn_c12"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="基本边缘检测"
+            android:id="@+id/btn1_c12"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="梯度边缘检测"
+            android:id="@+id/btn2_c12"/>
+
+
+       
+
+
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lena"
+            android:scaleType="fitCenter"
+            android:id="@+id/src_imageView_c12"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lena"
+            android:scaleType="fitCenter"
+            android:paddingTop="10px"
+            android:id="@+id/dest1_imageView_c12"/>
+
+      
+
+    </LinearLayout>
+</ScrollView>
