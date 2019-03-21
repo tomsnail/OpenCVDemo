@@ -54,12 +54,17 @@ public class CardNumberROIFinder {
                 roiArea = rect;
             }
         }
-
+        Bitmap.Config conf = Bitmap.Config.ARGB_8888; // see other conf types
         if(roiArea==null){
+            for(int i=0; i<contours.size(); i++) {
+                Imgproc.drawContours(dst, contours, i, new Scalar(0, 0, 255), 2);
+            }
+            Bitmap bmp = Bitmap.createBitmap(dst.cols(), dst.rows(), conf);
+            Utils.matToBitmap(dst, bmp);
             fixSrc.release();
             src.release();
             dst.release();
-            return null;
+            return bmp;
         }
         // clip ROI Area
         Mat result = src.submat(roiArea);
@@ -79,7 +84,7 @@ public class CardNumberROIFinder {
         Core.normalize(mr, mr, 0, 1, Core.NORM_MINMAX, -1);
         Core.MinMaxLocResult minMaxLocResult = Core.minMaxLoc(mr);
         Point maxLoc = minMaxLocResult.maxLoc;
-        Bitmap.Config conf = Bitmap.Config.ARGB_8888; // see other conf types
+
 
         // find id number ROI
         Rect idNumberROI = new Rect((int)(maxLoc.x+tpl.cols()-40), (int)maxLoc.y, (int)(result.cols() - (maxLoc.x+tpl.cols())-40), tpl.rows()-10);

@@ -25,7 +25,11 @@
             android:text="识别"
             android:id="@+id/btn1_c16"/>
 
-      
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:id="@+id/dest_testView_c16"/>
 
 
         <ImageView
@@ -34,11 +38,7 @@
             android:src="@drawable/lena"
             android:scaleType="fitCenter"
             android:id="@+id/src_imageView_c16"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scaleType="fitCenter"
-            android:id="@+id/dest_testView_c16"/>
+
      
 
       

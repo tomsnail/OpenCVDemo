@@ -169,6 +169,7 @@ public class C17Activity extends AppCompatActivity implements View.OnClickListen
         final Bitmap template = BitmapFactory.decodeResource(this.getResources(), R.drawable.card_template);
         final Bitmap cardImage = BitmapFactory.decodeFile(fileUri.getPath());
         Bitmap temp = CardNumberROIFinder.extractNumberROI(cardImage.copy(Bitmap.Config.ARGB_8888, true), template);
+        displayImage(R.id.src_imageView_c17,temp);
         if(temp==null){
             TextView txtView = findViewById(R.id.dest_testView_c17);
             txtView.setText("无法识别" );
@@ -185,6 +186,7 @@ public class C17Activity extends AppCompatActivity implements View.OnClickListen
         final Bitmap template = BitmapFactory.decodeResource(this.getResources(), R.drawable.card_template);
         final Bitmap cardImage = BitmapFactory.decodeFile(fileUri.getPath());
         Bitmap temp = CardNumberROIFinder.extractPreNumberROI(cardImage.copy(Bitmap.Config.ARGB_8888, true), template);
+        displayImage(R.id.src_imageView_c17,temp);
         if(temp==null){
             TextView txtView = findViewById(R.id.dest_testView_c17);
             txtView.setText("无法识别" );
@@ -194,6 +196,7 @@ public class C17Activity extends AppCompatActivity implements View.OnClickListen
         String myIdNumber = baseApi.getUTF8Text();
         TextView txtView = findViewById(R.id.dest_testView_c17);
         txtView.setText("身份证号码为:" + myIdNumber);
+
 
     }
 
