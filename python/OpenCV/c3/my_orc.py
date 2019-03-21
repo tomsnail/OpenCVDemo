@@ -67,7 +67,7 @@ def recognizePreIDCardText(srcImg=None):
     cv2.imwrite('orc2_preCannyImg.jpg', preImg)
 
     binary = cv2.Canny(preImg, 50, 150, apertureSize=3, L2gradient=False);
-    img1, contours, hierarchy = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    imp1,contours, hierarchy = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     sp = img.shape
     roiArea = None
     for i in contours:
@@ -139,11 +139,11 @@ def recognizePreIDCardText(srcImg=None):
 
 
 def main():
-    # recognizePreIDCardText('card.png')
-    # recognizePreIDCardText('s5.jpg')
-    # recognizePreIDCardText('s9.jpg')
-    recognizePreIDCardText('timg.jpg')
-    recognizePreIDCardText('timg1.jpg')
-    recognizePreIDCardText('timg2.jpg')
+    recognizePreIDCardText('card.png')
+    recognizePreIDCardText('s5.jpg')
+    recognizePreIDCardText('s9.jpg')
+    # recognizePreIDCardText('timg.jpg')
+    # recognizePreIDCardText('timg1.jpg')
+    # recognizePreIDCardText('timg2.jpg')
 
 main()

@@ -11,11 +11,12 @@ matplotlib.rcParams['font.family'] = 'SimHei'
 def recognizeChineseText():
     src = cv2.imread('s6.jpg')
     src = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
-    #src = cv2.cvtColor(src, cv2.COLOR_GRAY2RGB)  # cv2和PIL中颜色的hex码的储存顺序不同
     src = Image.fromarray(src)
     text = pytesseract.image_to_string(src,config = "-l chi_sim --oem 1 --psm 7")
-    print(text)
-    cv2.waitKey()
+    f, axarr = plt.subplots(1, 1)
+    axarr.imshow(cv2.imread('s6.jpg'))
+    axarr.set_title(text)
+
 
 def recognizeChineseContext(src):
         src = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
@@ -26,11 +27,9 @@ def recognizeChineseContext(src):
 def recognizeEnglishText():
     src = Image.open('s7.jpg')
     text = pytesseract.image_to_string(src)
-    img = np.zeros((1000, 600, 3), np.uint8)
-    font = cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(img, text, (80, 90), font, 1, (255, 255, 255),1 )
-    cv2.imshow('recognizeChineseText.jpg', img)
-    cv2.waitKey()
+    f, axarr = plt.subplots(1, 1)
+    axarr.imshow(cv2.imread('s7.jpg'))
+    axarr.set_title(text)
 
 
 def recognizeIDCardText(srcImg=None):
@@ -40,7 +39,7 @@ def recognizeIDCardText(srcImg=None):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     cv2.imwrite('orc1_gray.jpg',gray)
     binary = cv2.Canny(gray, 100, 300, apertureSize=3, L2gradient=False);
-    img1, contours, hierarchy = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+    imp1,contours, hierarchy = cv2.findContours(binary, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
     sp = img.shape
     roiArea = None
     for i in contours:
@@ -111,6 +110,8 @@ def recognizeIDCardText(srcImg=None):
 
 
 def main():
+    recognizeChineseText();
+    recognizeEnglishText();
     recognizeIDCardText('card.png')
     recognizeIDCardText('s5.jpg')
     recognizeIDCardText('s9.jpg')
