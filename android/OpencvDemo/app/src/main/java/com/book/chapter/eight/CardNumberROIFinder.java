@@ -1,6 +1,7 @@
 package com.book.chapter.eight;
 
 import android.graphics.Bitmap;
+import android.util.Log;
 
 import org.opencv.android.Utils;
 import org.opencv.core.Core;
@@ -13,10 +14,14 @@ import org.opencv.core.Rect;
 import org.opencv.core.RotatedRect;
 import org.opencv.core.Scalar;
 import org.opencv.core.Size;
+import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.opencv.core.CvType.CV_32F;
 
 /**
  * Created by gloomy fish on 2017/12/07.
@@ -100,11 +105,22 @@ public class CardNumberROIFinder {
         Mat dst = new Mat();
         Mat fixSrc = new Mat();
         Utils.bitmapToMat(input, src);
-
         Utils.bitmapToMat(template, tpl);
-        Imgproc.cvtColor(src, dst, Imgproc.COLOR_BGRA2GRAY);
-        Imgproc.equalizeHist(dst, dst);
-        Imgproc.Canny(dst, dst, 50, 150, 3, false);
+        Mat preImg = new Mat();
+        Bitmap.Config conf = Bitmap.Config.ARGB_8888; // see other conf types
+        Imgproc.GaussianBlur(src,preImg,new Size(15,15),0);
+//        preImg = cv2.GaussianBlur(preImg, (15, 15), 0)
+        Mat preImgx = new Mat();
+        Imgproc.Scharr(preImg,preImgx,CV_32F,1,0);
+        Core.convertScaleAbs(preImgx,preImgx);
+        Mat preImgy = new Mat();
+        Imgproc.Scharr(preImg,preImgy,CV_32F,0,1);
+        Core.convertScaleAbs(preImgy,preImgy);
+        Core.addWeighted(preImgx,0.5,preImgy,0.5,30,preImg);
+        Imgproc.GaussianBlur(preImg,preImg,new Size(15,15),0);
+        Imgproc.cvtColor(preImg, preImg, Imgproc.COLOR_BGRA2GRAY);
+        Imgproc.threshold(preImg, preImg,0,255, Imgproc.THRESH_TOZERO | Imgproc.THRESH_TRIANGLE);
+        Imgproc.Canny(preImg, dst, 50, 150, 3, false);
         List<MatOfPoint> contours = new ArrayList<MatOfPoint>();
         Mat hierachy = new Mat();
         Imgproc.findContours(dst, contours, hierachy, Imgproc.RETR_TREE, Imgproc.CHAIN_APPROX_SIMPLE);
@@ -113,19 +129,27 @@ public class CardNumberROIFinder {
         int height = input.getHeight();
         Rect roiArea = null;
         for(int i=0; i<contours.size(); i++) {
-            List<Point> points = contours.get(i).toList();
             Rect rect = Imgproc.boundingRect(contours.get(i));
+
             if(rect.width < width && rect.width > (width / 2)) {
-                if(rect.height <= (height / 4)) continue;
+                BigDecimal w = new BigDecimal(rect.width);
+                BigDecimal h = new BigDecimal(rect.height);
+                if(w.divide(h,1,BigDecimal.ROUND_HALF_UP).doubleValue()!=1.6)continue;
                 roiArea = rect;
+
             }
         }
 
         if(roiArea==null){
+            Bitmap bmp = Bitmap.createBitmap(preImg.cols(), preImg.rows(), conf);
+            Utils.matToBitmap(preImg, bmp);
+            preImgx.release();
+            preImgy.release();
+            preImg.release();
             fixSrc.release();
             src.release();
             dst.release();
-            return null;
+            return bmp;
         }
         // clip ROI Area
         Mat result = src.submat(roiArea);
@@ -134,21 +158,23 @@ public class CardNumberROIFinder {
         Size fixSize = new Size(547, 342);
         Imgproc.resize(result, fixSrc, fixSize);
         result = fixSrc;
+//
+//        // detect location//170 275 310 35
+//        int result_cols =  result.cols() - tpl.cols() + 1;
+//        int result_rows = result.rows() - tpl.rows() + 1;
+//        Mat mr = new Mat(result_rows, result_cols, CvType.CV_32FC1);
+//
+//
+//
+//        // template match
+//        Imgproc.matchTemplate(result, tpl, mr, Imgproc.TM_CCORR_NORMED);
+//       Core.normalize(mr, mr, 0, 1, Core.NORM_MINMAX, -1);
+//        Core.MinMaxLocResult minMaxLocResult = Core.minMaxLoc(mr);
+//        Point maxLoc = minMaxLocResult.maxLoc;
 
-        // detect location
-        int result_cols =  result.cols() - tpl.cols() + 1;
-        int result_rows = result.rows() - tpl.rows() + 1;
-        Mat mr = new Mat(result_rows, result_cols, CvType.CV_32FC1);
-
-        // template match
-        Imgproc.matchTemplate(result, tpl, mr, Imgproc.TM_CCORR_NORMED);
-        Core.normalize(mr, mr, 0, 1, Core.NORM_MINMAX, -1);
-        Core.MinMaxLocResult minMaxLocResult = Core.minMaxLoc(mr);
-        Point maxLoc = minMaxLocResult.maxLoc;
-        Bitmap.Config conf = Bitmap.Config.ARGB_8888; // see other conf types
 
         // find id number ROI
-        Rect idNumberROI = new Rect((int)(maxLoc.x+tpl.cols()-40), (int)maxLoc.y, (int)(result.cols() - (maxLoc.x+tpl.cols())-40), tpl.rows()-10);
+        Rect idNumberROI = new Rect(170, 275, 320, 38);
         Mat idNumberArea = result.submat(idNumberROI);
 
         // 返回对象
@@ -156,8 +182,11 @@ public class CardNumberROIFinder {
         Utils.matToBitmap(idNumberArea, bmp);
 
         // 释放内存
+        preImgx.release();
+        preImgy.release();
+        preImg.release();
         idNumberArea.release();
-        idNumberArea.release();
+//        idNumberArea.release();
         result.release();
         fixSrc.release();
         src.release();
