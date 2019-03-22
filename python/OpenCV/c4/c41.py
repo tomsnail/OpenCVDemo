@@ -70,7 +70,7 @@ def showCameraCaptureAndFace():
 
     while success and cv2.waitKey(1) == -1 and not clicked:
         gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
-        faces = face_cascade.detectMultiScale(gray,1.3,5)
+        faces = face_cascade.detectMultiScale(gray,1.3,2)
         print(faces)
         for(x,y,w,h) in faces:
             frame = cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),2)
