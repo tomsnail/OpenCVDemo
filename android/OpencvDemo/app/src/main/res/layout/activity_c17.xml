@@ -41,7 +41,7 @@
             android:text="识别剪裁图片"
             android:id="@+id/btn2_c17"/>
 
-      
+
 
 
         <ImageView

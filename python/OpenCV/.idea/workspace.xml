@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf504919-af70-4f07-bfd0-f2aff99a1f9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/c41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c4/data/lbpcascade_frontalface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/book/chapter/eight/CardNumberROIFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/book/chapter/eight/CardNumberROIFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/zkjd/activties/C17Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/zkjd/activties/C17Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/OpenCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenCV.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c2/l1.py" beforeDir="false" afterPath="$PROJECT_DIR$/c2/l1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c2/l2.py" beforeDir="false" afterPath="$PROJECT_DIR$/c2/l2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c2/l3.py" beforeDir="false" afterPath="$PROJECT_DIR$/c2/l3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c3/deep_orc.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3/deep_orc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c3/my_orc.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3/my_orc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c3/orc.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3/orc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c3/my_orc.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="41" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/c4/c41.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -83,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="39" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
@@ -95,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,10 +128,16 @@
               <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
               <item name="c3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="c4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.my_orc">
+  <component name="RunManager" selected="Python.c41">
     <configuration name="TestNum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,6 +177,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestNum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="c41" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c4/c41.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,27 +311,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_cv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_cv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="xstdcz" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.c41" />
         <item itemvalue="Python.my_orc" />
         <item itemvalue="Python.l1" />
         <item itemvalue="Python.hello_tensorflow" />
         <item itemvalue="Python.TestNum" />
-        <item itemvalue="Python.test_cv" />
       </list>
     </recent_temporary>
   </component>
@@ -344,15 +365,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1400" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="37" y="23" width="987" height="745" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.23122239" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.33650795" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49763593" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6156112" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6156112" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921197" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,15 +381,18 @@
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49852726" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3843888" side_tool="true" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969603" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/t.jpg" />
     <entry file="file://$PROJECT_DIR$/test.jpg" />
     <entry file="file://$PROJECT_DIR$/c2/kk0.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -557,6 +580,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/c41.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
