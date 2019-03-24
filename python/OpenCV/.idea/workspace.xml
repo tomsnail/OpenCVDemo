@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf504919-af70-4f07-bfd0-f2aff99a1f9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c4/c41.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/data/haarcascade_lefteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/data/lbpcascade_frontalface.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/book/chapter/eight/CardNumberROIFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/book/chapter/eight/CardNumberROIFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/zkjd/activties/C17Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/java/com/zkjd/activties/C17Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c16.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/app/src/main/res/layout/activity_c17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/org/opencv/engine/OpenCVEngineInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/org/opencv/engine/OpenCVEngineInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/packageDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../android/OpencvDemo/openCVLibrary330/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/OpenCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenCV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c2/bilateralFilter.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,24 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c4/c41.py">
+        <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="68" column="80" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c4/data/haarcascade_frontalface_default.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="33313" column="17" selection-start-line="33313" selection-start-column="17" selection-end-line="33313" selection-end-column="17" />
+            <state relative-caret-position="57">
+              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -101,6 +69,7 @@
         <option value="$PROJECT_DIR$/t.py" />
         <option value="$PROJECT_DIR$/c4/data/haarcascade_frontalface_default.xml" />
         <option value="$PROJECT_DIR$/c4/c41.py" />
+        <option value="$PROJECT_DIR$/c2/l2.py" />
       </list>
     </option>
   </component>
@@ -116,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,19 +96,17 @@
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
+              <item name="c2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
               <item name="c4" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.c41">
+  <component name="RunManager" selected="Python.hello_tensorflow">
     <configuration name="c41" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,7 +177,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="l1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hello_tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello_tensorflow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="l2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,7 +210,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c2/l1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c2/l2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,27 +232,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="G:\02_workspace\41_scripts\OpenCV\c2\l2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="my_orc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c3/my_orc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hello_tensorflow" />
+        <item itemvalue="Python.l2" />
         <item itemvalue="Python.c41" />
         <item itemvalue="Python.t" />
         <item itemvalue="Python.deep_orc" />
-        <item itemvalue="Python.my_orc" />
-        <item itemvalue="Python.l1" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553131750924</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update camera">
+      <created>1553170897778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553170897778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -376,22 +351,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22813238" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19581749" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49763593" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49448386" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49683145" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74968314" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921197" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49921197" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5055162" side_tool="true" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5031686" side_tool="true" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -400,44 +374,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update plt features" />
-    <option name="LAST_COMMIT_MESSAGE" value="update plt features" />
+    <MESSAGE value="update camera" />
+    <option name="LAST_COMMIT_MESSAGE" value="update camera" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/c3/dilation.png" />
-    <entry file="file://$PROJECT_DIR$/c3/gray.png" />
-    <entry file="file://$PROJECT_DIR$/c3/idImg.png" />
     <entry file="file://$PROJECT_DIR$/c3/binary.png" />
-    <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c3/card_template.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="1866" selection-start-line="1866" selection-end-line="1866" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="5498" selection-start-line="5498" selection-end-line="5498" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/cm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/__init__.py" />
+    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/axes/_axes.py" />
+    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/cm.py" />
     <entry file="file://$PROJECT_DIR$/c3/s10.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -459,29 +406,10 @@
     <entry file="file://$PROJECT_DIR$/c3/card.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="649" selection-start-line="649" selection-end-line="649" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/PIL/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="2452" selection-start-line="2452" selection-end-line="2452" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/image.py" />
+    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/PIL/Image.py" />
     <entry file="file://$PROJECT_DIR$/c2/s5.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2/draw.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/c2/readme.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,13 +418,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/t.py" />
     <entry file="file://$PROJECT_DIR$/c3/deep_orc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -518,91 +440,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c2/l2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="65" column="53" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/orc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/my_orc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="124" column="29" selection-start-line="124" selection-start-column="29" selection-end-line="124" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172626.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172627.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172628.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172630.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172629.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172625.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172622.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172620.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172618.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172617.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321172956.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321172959.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173002.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173005.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173008.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173011.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173017.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173020.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1780615201/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="7294" column="11" selection-start-line="7294" selection-start-column="4" selection-end-line="7294" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172626.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172627.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172628.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172630.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172629.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172625.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172622.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172620.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172618.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172617.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321172956.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321172959.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173002.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173005.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173008.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173011.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173017.jpg" />
+    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173020.jpg" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1780615201/cv2/__init__.py" />
     <entry file="file://$PROJECT_DIR$/c4/data/haarcascade_frontalface_alt_tree.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684" />
@@ -613,18 +469,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/data/haarcascade_frontalface_default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
+        <state relative-caret-position="632947">
           <caret line="33313" column="17" selection-start-line="33313" selection-start-column="17" selection-end-line="33313" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8947" selection-start-line="8947" selection-end-line="8952" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/CascadeClassifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c3/orc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c3/my_orc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="96" column="63" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/c41.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="68" column="80" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
+        <state relative-caret-position="988">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c2/draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c2/l2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="146" column="9" lean-forward="true" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c2/bilateralFilter.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
