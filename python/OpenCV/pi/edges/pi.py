@@ -24,8 +24,24 @@ def piCameraCaptureFaceDectorWithImage():
     success, frame = cameraCapture.read()
     count = 1
     while success and work :
-        t = PostUnusualThread(frame.copy())
-        t.start()
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        faces = face_cascade.detectMultiScale(gray, 1.3, 3)
+        eyes = eye_cascade.detectMultiScale(gray, 1.3, 3)
+        flag = False
+        filename = ""
+        if faces is not None and len(faces) > 0:
+            unusual = frame.copy()
+            filename = 'camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
+            cv2.imwrite('./unusual/' + filename, unusual)
+            flag = True
+        elif eyes is not None and len(eyes) > 0:
+            unusual = frame.copy()
+            filename = 'camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
+            cv2.imwrite('./unusual/' + filename, unusual)
+            flag = True
+        if flag:
+            t = PostUnusualThread(filename)
+            t.start()
         count += 1
         if count % 5 == 0 :
             videoWrite.write(frame)
@@ -43,27 +59,13 @@ class PostUnusualThread(threading.Thread):
         super(PostUnusualThread, self).__init__()
         self.arg=arg
     def run(self):
-        frame = self.arg
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        faces = face_cascade.detectMultiScale(gray, 1.3, 3)
-        eyes = eye_cascade.detectMultiScale(gray, 1.3, 3)
-        flag = False
-        if faces is not None and len(faces) > 0:
-            unusual = frame.copy()
-            filename = 'camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
-            cv2.imwrite('./unusual/' + filename, unusual)
-            flag = True
-        elif eyes is not None and len(eyes) > 0:
-            unusual = frame.copy()
-            filename = 'camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
-            cv2.imwrite('./unusual/' + filename, unusual)
-            flag = True
-        if flag :
-            with open('./unusual/'+self.arg, 'rb') as fileObj:
-                image_data = fileObj.read()
-                content = base64.b64encode(image_data)
-                params = {"content": content,"filename":self.arg}
-                print(post(server_url, params))
+        with open('./unusual/' + self.arg, 'rb') as fileObj:
+            image_data = fileObj.read()
+            content = base64.b64encode(image_data)
+            params = {"content": content, "filename": self.arg}
+            print(post(server_url, params))
+
+
 
 
 def main():
