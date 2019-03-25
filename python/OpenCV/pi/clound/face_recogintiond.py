@@ -4,12 +4,18 @@ import face_recognition
 import cv2
 import dlib
 
-yangsong_face_encoding = None
+_face_encodings = ['','']
+
+persons = ['./images/camera-20190325103711.jpg','./images/liuwei.jpg']
+
+names = ['yangsong','liuwei']
 
 def face_init():
-    global yangsong_face_encoding
-    yangsong_img = face_recognition.load_image_file('./images/camera-20190325103711.jpg')
-    yangsong_face_encoding = face_recognition.face_encodings(yangsong_img)[0]
+    global _face_encodings
+    for i in range(len(persons)):
+        face_img = face_recognition.load_image_file(persons[i])
+        _face_encodings[i] = face_recognition.face_encodings(face_img)[0]
+
     print("face_init ok")
 
 
@@ -26,9 +32,16 @@ def face_recognitiond(filename=None):
         face_locations = face_recognition.face_locations(small_frame)
         face_encodings = face_recognition.face_encodings(small_frame, face_locations)
         for face_encoding in face_encodings:
-            match = face_recognition.compare_faces([yangsong_face_encoding], face_encoding)
-            if match[0]:
-                print(filename+">>>>>>>>>>>>>>>>this is yangsong")
+            isKonw = False
+            match = face_recognition.compare_faces(_face_encodings, face_encoding)
+            for i in range(len(names)):
+                if match[i] :
+                    print(filename + ">>>>>>>>>>>>>>>>this is " + names[i])
+                    isKonw = True
+                    break
+
+            if isKonw :
+                pass
             else:
                 print(filename+">>>>>>>>>>>>>>>>this is unknown")
     pass

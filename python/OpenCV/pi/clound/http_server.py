@@ -40,12 +40,10 @@ class ImageHandler(RequestHandler):
 
     def content_process(self, image_content,filename):
         try:
-            print(image_content)
             ori_image_data = base64.b64decode(image_content)
             fout = open("./unusual/"+filename, 'wb')
             fout.write(ori_image_data)
             fout.close()
-
             t = FaceThread("./unusual/"+filename)
             t.start()
             return "ok"
