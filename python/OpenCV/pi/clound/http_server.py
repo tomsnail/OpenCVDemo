@@ -4,9 +4,7 @@ from tornado.web import Application, RequestHandler
 from tornado.escape import json_decode
 from tornado.escape import json_encode
 from tornado.ioloop import IOLoop
-from PIL import Image
-import pickle
-from io import StringIO
+import base64
 import traceback
 import threading
 
@@ -37,21 +35,26 @@ class ImageHandler(RequestHandler):
             result["msg"] = "no image content"
         else:
             content = self.get_argument("content", default=None)
-            result["msg"] = self.content_process(content)
+            result["msg"] = self.content_process(content,filename)
         self.write(json_encode(result))
 
     def content_process(self, image_content,filename):
         try:
-            content = pickle.loads(image_content)
-            image = Image.open(StringIO(content))
-            image.save(filename)
-            t = FaceThread(filename)
+            print(image_content)
+            ori_image_data = base64.b64decode(image_content)
+            fout = open("./unusual/"+filename, 'wb')
+            fout.write(ori_image_data)
+            fout.close()
+
+            t = FaceThread("./unusual/"+filename)
             t.start()
             return "ok"
         except Exception as e:
-            print
-            traceback.format_exc()
+            print(traceback.format_exc())
+            print(e)
             return str(e)
+
+
 
 class FaceThread(threading.Thread):
     def __init__(self,arg):

@@ -28,9 +28,9 @@ def face_recognitiond(filename=None):
         for face_encoding in face_encodings:
             match = face_recognition.compare_faces([yangsong_face_encoding], face_encoding)
             if match[0]:
-                print("this is yangsong")
+                print(filename+">>>>>>>>>>>>>>>>this is yangsong")
             else:
-                print("this is unknown")
+                print(filename+">>>>>>>>>>>>>>>>this is unknown")
     pass
 
 
