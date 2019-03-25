@@ -27,14 +27,14 @@ def piCameraCaptureFaceDectorWithImage():
         eyes = eye_cascade.detectMultiScale(gray, 1.3, 3)
         if faces is not None and len(faces) > 0 :
             unusual = frame.copy()
-            filename = './unusual/camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
-            cv2.imwrite(filename, unusual)
+            filename = 'camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
+            cv2.imwrite('./unusual/' + filename, unusual)
             t = PostUnusualThread(filename)
             t.start()
         elif eyes is not None and len(eyes) > 0 :
             unusual = frame.copy()
-            filename = './unusual/camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
-            cv2.imwrite(filename, unusual)
+            filename = 'camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
+            cv2.imwrite('./unusual/'+filename, unusual)
             t = PostUnusualThread(filename)
             t.start()
         count += 1
@@ -50,12 +50,12 @@ def post(server_url, params):
 
 class PostUnusualThread(threading.Thread):
     def __init__(self,arg):
-        super(PostUnusualThread, self).__init__()#注意：一定要显式的调用父类的初始化函数。
+        super(PostUnusualThread, self).__init__()
         self.arg=arg
-    def run(self):#定义每个线程要运行的函数
-        r_file = open(self.arg, "rb")
+    def run(self):
+        r_file = open('/unusual/'+self.arg, "rb")
         content = pickle.dumps(r_file.read())
-        params = {"content": content}
+        params = {"content": content,"filename":self.arg}
         print(post(server_url, params))
 
 
