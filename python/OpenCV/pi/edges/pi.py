@@ -6,9 +6,9 @@ import urllib
 import urllib2
 import requests
 import pickle
+import base64
 
-
-server_url = "http://192.168.169.53:8000/image"
+server_url = "http://192.168.169.35:8000/image"
 
 
 def piCameraCaptureFaceDectorWithImage():
@@ -16,7 +16,7 @@ def piCameraCaptureFaceDectorWithImage():
     cameraCapture = cv2.VideoCapture(0)
     fps = 20
     size = (640,320)
-    videoWrite = cv2.VideoWriter('./camera_datas/camera_data.avi', cv2.VideoWriter_fourcc(*'MJPG'), fps, size)
+    videoWrite = cv2.VideoWriter('./camera_datas/camera_data.avi', cv2.cv.CV_FOURCC(*'XVID'), fps, size)
     face_cascade = cv2.CascadeClassifier('./data/haarcascade_frontalface_default.xml')
     eye_cascade = cv2.CascadeClassifier('./data/haarcascade_eye_tree_eyeglasses.xml')
     success, frame = cameraCapture.read()
@@ -53,10 +53,11 @@ class PostUnusualThread(threading.Thread):
         super(PostUnusualThread, self).__init__()
         self.arg=arg
     def run(self):
-        r_file = open('/unusual/'+self.arg, "rb")
-        content = pickle.dumps(r_file.read())
-        params = {"content": content,"filename":self.arg}
-        print(post(server_url, params))
+        with open('./unusual/'+self.arg, 'rb') as fileObj:
+            image_data = fileObj.read()
+            content = base64.b64encode(image_data)
+            params = {"content": content,"filename":self.arg}
+            print(post(server_url, params))
 
 
 def main():
