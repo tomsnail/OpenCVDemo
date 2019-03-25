@@ -63,8 +63,9 @@ def ll2():
 #其他操作
 
 def main():
-    td()
-    ll0()
-    ll()
-    ll2()
+    #td()
+    #ll0()
+    #ll()
+     #ll2()
+     pass
 main()
