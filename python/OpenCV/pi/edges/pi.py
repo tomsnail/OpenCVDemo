@@ -15,7 +15,7 @@ def piCameraCaptureFaceDectorWithImage():
     work = True
     cameraCapture = cv2.VideoCapture(0)
     fps = 20
-    size = (int(cameraCapture.get(cv2.CAP_PROP_FRAME_WIDTH)), int(cameraCapture.get(cv2.CAP_PROP_FRAME_HEIGHT)))
+    size = (640,320)
     videoWrite = cv2.VideoWriter('./camera_datas/camera_data.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, size)
     face_cascade = cv2.CascadeClassifier('./data/haarcascade_frontalface_default.xml')
     eye_cascade = cv2.CascadeClassifier('./data/haarcascade_eye_tree_eyeglasses.xml')
