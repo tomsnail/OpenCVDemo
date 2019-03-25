@@ -43,9 +43,10 @@ def piCameraCaptureFaceDectorWithImage():
             t = PostUnusualThread(filename)
             t.start()
         count += 1
-        if count % 5 == 0 :
-            videoWrite.write(frame)
-        cv2.waitKey(50)
+        #if count % 5 == 0 :
+        #    videoWrite.write(frame)
+        #cv2.waitKey(50)
+        time.sleep(1)
         success, frame = cameraCapture.read()
     cameraCapture.release()
 
