@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf504919-af70-4f07-bfd0-f2aff99a1f9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/OpenCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenCV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c2/bilateralFilter.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +13,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
+        <entry file="file://$PROJECT_DIR$/tensorflow/t1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="358">
+              <caret line="87" column="27" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://F:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/framework/ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30609">
+              <caret line="1658" selection-start-line="1658" selection-end-line="1658" />
             </state>
           </provider>
         </entry>
@@ -70,6 +79,7 @@
         <option value="$PROJECT_DIR$/c4/data/haarcascade_frontalface_default.xml" />
         <option value="$PROJECT_DIR$/c4/c41.py" />
         <option value="$PROJECT_DIR$/c2/l2.py" />
+        <option value="$PROJECT_DIR$/tensorflow/t1.py" />
       </list>
     </option>
   </component>
@@ -86,27 +96,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hello_tensorflow">
+  <component name="RunManager" selected="Python.t1">
     <configuration name="c41" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,27 +138,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c4/c41.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="deep_orc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c3/deep_orc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,6 +251,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/t1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xstdcz" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -305,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t1" />
+        <item itemvalue="Python.c41" />
         <item itemvalue="Python.hello_tensorflow" />
         <item itemvalue="Python.l2" />
-        <item itemvalue="Python.c41" />
         <item itemvalue="Python.t" />
-        <item itemvalue="Python.deep_orc" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553170897778</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/workspace.xml">
+      <created>1553409927397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553409927397</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/workspace.xml">
+      <created>1553433099916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553433099916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -358,14 +362,14 @@
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19581749" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49683145" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74968314" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7490494" weight="0.32884097" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921197" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49921197" weight="0.32969603" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5031686" side_tool="true" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49873257" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.25095057" side_tool="true" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,15 +379,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update plt features" />
     <MESSAGE value="update camera" />
-    <option name="LAST_COMMIT_MESSAGE" value="update camera" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/c3/binary.png" />
-    <entry file="file://$PROJECT_DIR$/c3/card_template.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/__init__.py" />
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/axes/_axes.py" />
     <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/cm.py" />
     <entry file="file://$PROJECT_DIR$/c3/s10.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -474,20 +473,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8947" selection-start-line="8947" selection-end-line="8952" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/CascadeClassifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/CascadeClassifier.py" />
     <entry file="file://$PROJECT_DIR$/c3/orc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -499,16 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="96" column="63" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/c41.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -532,13 +509,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c2/bilateralFilter.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/c2/bilateralFilter.jpg" />
     <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/c44.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/c43.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/c41.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="119" column="34" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="87" column="27" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30609">
+          <caret line="1658" selection-start-line="1658" selection-end-line="1658" />
         </state>
       </provider>
     </entry>
