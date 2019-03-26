@@ -2,9 +2,9 @@ import cv2
 import time
 import threading
 import json
-#import urllib
-#import urllib2
-#import requests
+import urllib
+import urllib2
+import requests
 import pickle
 import base64
 import os
@@ -14,11 +14,14 @@ server_url = "http://192.168.169.35:8000/image"
 def piCameraCaptureFaceDectorWithImage():
     cameraCapture = cv2.VideoCapture(0)
     fps = 20
-    size = (640,320)
-    videoWrite = cv2.VideoWriter('./camera_datas/camera_data.avi', cv2.VideoWriter_fourcc('M', 'J', 'P', 'G'), fps, size)
+    size = (640,480)
+    videoWrite = cv2.VideoWriter('./camera_datas/camera_data.avi', cv2.cv.CV_FOURCC(*'MJPG'), fps, size)
     success, frame = cameraCapture.read()
-    t = PostUnusualThread(int(time.time()))
+    time0 = int(time.time())
+    t = PostUnusualThread(time0)
     t.start()
+    t1 = PostUnusualThread(time0-1)
+    t1.start()
     temp_file_name = ""
     count = 1
     while success and cv2.waitKey(10) == -1  :
@@ -27,17 +30,17 @@ def piCameraCaptureFaceDectorWithImage():
             file_path = './unusual/' + filename
             cv2.imwrite(file_path,frame);
         count += 1
-        frame = cv2.flip(frame, 0)
+        #frame = cv2.flip(frame, 0)
         videoWrite.write(frame)
         success, frame = cameraCapture.read()
     cameraCapture.release()
 
 def post(server_url, params):
-    print(server_url)
-    pass
-    #data = urllib.urlencode(params)
-    # request = urllib2.Request(server_url, data)
-    # return json.loads(urllib2.urlopen(request, timeout=10).read())
+    #print(server_url)
+    #pass
+    data = urllib.urlencode(params)
+    request = urllib2.Request(server_url, data)
+    return json.loads(urllib2.urlopen(request, timeout=10).read())
 
 class PostUnusualThread(threading.Thread):
     def __init__(self,arg):
@@ -48,7 +51,7 @@ class PostUnusualThread(threading.Thread):
         eye_cascade = cv2.CascadeClassifier('./data/haarcascade_eye_tree_eyeglasses.xml')
         count = self.arg
         while True :
-            time.sleep(1)
+            #time.sleep(1)
             filename = 'camera-' + str(count) + ".jpg"
             file_path = './unusual/' + filename
             frame = cv2.imread(file_path)
@@ -57,7 +60,7 @@ class PostUnusualThread(threading.Thread):
                 faces = face_cascade.detectMultiScale(gray, 1.3, 3)
                 eyes = eye_cascade.detectMultiScale(gray, 1.3, 3)
                 flag = False
-                filename = ""
+                #filename = ""
                 if faces is not None and len(faces) > 0:
                     flag = True
                 elif eyes is not None and len(eyes) > 0:
@@ -69,7 +72,8 @@ class PostUnusualThread(threading.Thread):
                         params = {"content": content, "filename": filename}
                         print(post(server_url, params))
                 os.remove(file_path)
-            count += 1
+            count = count + 2
+            #print(count)
 
 
 
