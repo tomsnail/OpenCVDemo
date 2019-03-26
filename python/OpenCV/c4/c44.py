@@ -60,9 +60,7 @@ def video_face_detector():
 
 
 def main():
-    # video_face_detector()
-    print(dlib.DLIB_USE_CUDA)
-    print(dlib.cuda.get_num_devices())
+    video_face_detector()
     pass
 
 main()
