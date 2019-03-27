@@ -2,6 +2,8 @@ import sys
 
 import dlib
 
+
+
 def face_detector(path):
     detector = dlib.get_frontal_face_detector()
     win = dlib.image_window()

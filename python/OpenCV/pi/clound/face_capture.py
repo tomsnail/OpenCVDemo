@@ -77,8 +77,8 @@ def face_decector(name,count=2000):
         if index >= count:
             break
 def main():
-    #capture('yangsong',2000)
-    face_decector('other_faces')
+    capture('yangda',2000)
+    #face_decector('other_faces')
     pass
 
 if __name__ == '__main__':

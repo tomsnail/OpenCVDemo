@@ -24,7 +24,7 @@ def generate():
         faces = face_cascade.detectMultiScale(gray,1.3,5)
         for (x, y, w, h) in faces:
             f = cv2.resize(gray[y:y+h,x:x+w],(200,200))
-            cv2.imwrite('./datasets/%s.pgm'%str(count),f)
+            cv2.imwrite('./datasets/%s.jpg'%str(count),f)
             count+=1
             if count > 100:
                 clicked = True
