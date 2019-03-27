@@ -8,7 +8,7 @@ import base64
 import traceback
 import threading
 
-import face_recogintiond as fr
+import face_recogintiond_dlib as frd
 
 
 class IndexHandler(RequestHandler):
@@ -19,7 +19,7 @@ class IndexHandler(RequestHandler):
 class ImageHandler(RequestHandler):
 
     def get(self):
-        fr.face_recognitiond("G:/02_workspace/33_git_open/OpenCVDemo/python/OpenCV/c2/s3.jpg")#
+        frd.face_recognitiond("G:/02_workspace/33_git_open/OpenCVDemo/python/OpenCV/c2/s3.jpg")#
         self.write("image service ok")
 
 
@@ -40,12 +40,10 @@ class ImageHandler(RequestHandler):
 
     def content_process(self, image_content,filename):
         try:
-            print(image_content)
             ori_image_data = base64.b64decode(image_content)
             fout = open("./unusual/"+filename, 'wb')
             fout.write(ori_image_data)
             fout.close()
-
             t = FaceThread("./unusual/"+filename)
             t.start()
             return "ok"
@@ -62,10 +60,10 @@ class FaceThread(threading.Thread):
         self.arg=arg
     def run(self):
         print(self.arg)
-        fr.face_recognitiond(self.arg)
+        frd.face_recognitiond(self.arg)
 
 if __name__ == "__main__":
-    fr.face_init()
+    frd.face_init()
     app = Application([
         (r"/", IndexHandler),
         (r"/image", ImageHandler)])
