@@ -1,47 +1,39 @@
-import sys
-
-import dlib
-
-
-
-def face_detector(path):
-    detector = dlib.get_frontal_face_detector()
-    win = dlib.image_window()
-
-    for f in path:
-        print("Processing file: {}".format(f))
-        img = dlib.load_rgb_image(f)
-        # The 1 in the second argument indicates that we should upsample the image
-        # 1 time.  This will make everything bigger and allow us to detect more
-        # faces.
-        dets = detector(img, 1)
-        print("Number of faces detected: {}".format(len(dets)))
-        for i, d in enumerate(dets):
-            print("Detection {}: Left: {} Top: {} Right: {} Bottom: {}".format(
-                i, d.left(), d.top(), d.right(), d.bottom()))
-
-        win.clear_overlay()
-        win.set_image(img)
-        win.add_overlay(dets)
-        dlib.hit_enter_to_continue()
+# -*- coding: utf-8 -*-
+import face_recognition
+import cv2
+from PIL import Image, ImageDraw
+import numpy
 
 
-    # Finally, if you really want to you can ask the detector to tell you the score
-    # for each detection.  The score is bigger for more confident detections.
-    # The third argument to run is an optional adjustment to the detection threshold,
-    # where a negative value will return more detections and a positive value fewer.
-    # Also, the idx tells you which of the face sub-detectors matched.  This can be
-    # used to broadly identify faces in different orientations.
-    if (len(sys.argv[1:]) > 0):
-        img = dlib.load_rgb_image(sys.argv[1])
-        dets, scores, idx = detector.run(img, 1, -1)
-        for i, d in enumerate(dets):
-            print("Detection {}, score: {}, face_type:{}".format(
-                d, scores[i], idx[i]))
+def find_facial_features(path):
+    # Load the jpg file into a numpy array
+    image = face_recognition.load_image_file(path)
+
+    # Find all facial features in all the faces in the image
+    face_landmarks_list = face_recognition.face_landmarks(image)
+
+    print("I found {} face(s) in this photograph.".format(len(face_landmarks_list)))
+
+    # Create a PIL imagedraw object so we can draw on the picture
+    pil_image = Image.fromarray(image)
+    frame = cv2.cvtColor(numpy.asarray(pil_image), cv2.COLOR_RGB2BGR)
+    for face_landmarks in face_landmarks_list:
+
+        # Print the location of each facial feature in this image
+        for facial_feature in face_landmarks.keys():
+            print("The {} in this face has the following points: {}".format(facial_feature,
+                                                                            face_landmarks[facial_feature]))
+
+        # Let's trace out each facial feature in the image with a line!
+        for facial_feature in face_landmarks.keys():
+            #d.line(face_landmarks[facial_feature], width=5)
+            print(facial_feature)
+            for i in range(len(face_landmarks[facial_feature])):
+                cv2.circle(frame, face_landmarks[facial_feature][i], 0, (55, 255, 155), 5)
 
 
-def main():
-    face_detector(['./image/2008_001009.jpg'])
-    pass
 
-main()
+    cv2.imshow('find_facial_features', frame)
+    cv2.waitKey()
+
+find_facial_features("./image/liuwei.jpg")

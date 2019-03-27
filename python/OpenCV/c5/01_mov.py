@@ -1,9 +1,13 @@
 import cv2
 import numpy as np
 
-def mov(show=False):
+def mov(show=False,save=False):
     bs = cv2.createBackgroundSubtractorKNN(detectShadows = True)
     camera = cv2.VideoCapture(0)
+    out = None
+    if save :
+        size = (int(camera.get(cv2.CAP_PROP_FRAME_WIDTH)), int(camera.get(cv2.CAP_PROP_FRAME_HEIGHT)))
+        out = cv2.VideoWriter('./resource/mov_output.avi', cv2.VideoWriter_fourcc('I', '4', '2', '0'), 20.0, size)
     while True:
       ret, frame = camera.read()
       fgmask = bs.apply(frame)
@@ -20,10 +24,13 @@ def mov(show=False):
           cv2.imshow("thresh", th)
           cv2.imshow("diff", frame & cv2.cvtColor(fgmask, cv2.COLOR_GRAY2BGR))
       cv2.imshow("detection", frame)
+      if save:
+        out.write(frame)
       k = cv2.waitKey(30) & 0xff
       if k == 27:
           break
-
+    if save:
+        out.release()
     camera.release()
     cv2.destroyAllWindows()
 

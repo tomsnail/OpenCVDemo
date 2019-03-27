@@ -5,33 +5,6 @@ from PIL import Image, ImageDraw
 import numpy
 
 
-def find_facial_features(path):
-    # Load the jpg file into a numpy array
-    image = face_recognition.load_image_file(path)
-
-    # Find all facial features in all the faces in the image
-    face_landmarks_list = face_recognition.face_landmarks(image)
-
-    print("I found {} face(s) in this photograph.".format(len(face_landmarks_list)))
-
-    # Create a PIL imagedraw object so we can draw on the picture
-    pil_image = Image.fromarray(image)
-    d = ImageDraw.Draw(pil_image)
-
-    for face_landmarks in face_landmarks_list:
-
-        # Print the location of each facial feature in this image
-        for facial_feature in face_landmarks.keys():
-            print("The {} in this face has the following points: {}".format(facial_feature,
-                                                                            face_landmarks[facial_feature]))
-
-        # Let's trace out each facial feature in the image with a line!
-        for facial_feature in face_landmarks.keys():
-            d.line(face_landmarks[facial_feature], width=5)
-
-    frame = cv2.cvtColor(numpy.asarray(pil_image), cv2.COLOR_RGB2BGR)
-    cv2.imshow('find_facial_features', frame)
-    cv2.waitKey()
 
 def video_face_detector(makeup=False,blur=False):
     video_capture = cv2.VideoCapture(0)
@@ -124,8 +97,6 @@ def video_face_detector(makeup=False,blur=False):
 
 
 def main():
-    #find_facial_features("./image/5.jpg")
-    #find_facial_features("./image/liuwei.jpg")
     video_face_detector()
     pass
 

@@ -3,10 +3,8 @@ import cv2
 
 
 import pickle
-from PIL import Image, ImageDraw
 import face_recognition
 
-import numpy
 
 model_path = "./knn_resource/model/trained_knn_model.clf"
 knn_clf = None
@@ -52,6 +50,8 @@ def face_rec():
     cv2.destroyAllWindows()
 
 
-if __name__ == '__main__':
-
+def main():
     face_rec()
+
+if __name__ == '__main__':
+    pass
