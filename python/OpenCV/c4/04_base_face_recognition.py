@@ -3,6 +3,7 @@ import face_recognition
 import cv2
 from PIL import Image, ImageDraw
 import numpy
+import dlib
 
 
 
@@ -23,8 +24,8 @@ def video_face_detector(makeup=False,blur=False):
         small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
 
         if process_this_frame:
-            face_locations = face_recognition.face_locations(small_frame)
-            #face_locations = face_recognition.face_locations(small_frame,  model="cnn")
+            #face_locations = face_recognition.face_locations(small_frame)
+            face_locations = face_recognition.face_locations(small_frame,  model="cnn")
 
             face_encodings = face_recognition.face_encodings(small_frame, face_locations)
             face_names = []

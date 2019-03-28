@@ -13,12 +13,12 @@ with open(model_path, 'rb') as f:
     print(knn_clf)
 
 
-def predict(frame,distance_threshold=0.6):
+def predict(frame,distance_threshold=0.5):
 
     # Load a trained KNN model (if one was passed in)
 
     # Load image file and find face locations
-    X_face_locations = face_recognition.face_locations(frame)
+    X_face_locations = face_recognition.face_locations(frame,model="cnn")
 
     # If no faces are found in the image, return an empty result.
     if len(X_face_locations) == 0:
@@ -54,4 +54,5 @@ def main():
     face_rec()
 
 if __name__ == '__main__':
+    main()
     pass
