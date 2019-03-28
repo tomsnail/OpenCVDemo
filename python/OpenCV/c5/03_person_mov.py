@@ -160,7 +160,7 @@ def main(type=1,save=False,face=False):
   frames = 0
   if save :
     size = (int(camera.get(cv2.CAP_PROP_FRAME_WIDTH)), int(camera.get(cv2.CAP_PROP_FRAME_HEIGHT)))
-    out = cv2.VideoWriter('./resource/person_output.avi', cv2.VideoWriter_fourcc('I', '4', '2', '0'), 10.0, size)
+    out = cv2.VideoWriter('./resource/person_output1.avi', cv2.VideoWriter_fourcc('I', '4', '2', '0'), 10.0, size)
   counter = 0
   while True:
     print(" -------------------- FRAME %d --------------------" % frames)
