@@ -14,26 +14,40 @@ server_url = "http://192.168.169.35:8000/image"
 def piCameraCaptureFaceDectorWithImage():
     cameraCapture = cv2.VideoCapture(0)
     fps = 20
-    size = (640,480)
+    #size = (640,480)
+    size = (int(cameraCapture.get(cv2.CAP_PROP_FRAME_WIDTH)),int(cameraCapture.get(cv2.CAP_PROP_FRAME_HEIGHT))) 
+    print(size)
     videoWrite = cv2.VideoWriter('./camera_datas/camera_data.avi', cv2.VideoWriter_fourcc('I','4','2','0'), fps, size)
     success, frame = cameraCapture.read()
-    time0 = int(time.time())
-    t = PostUnusualThread(time0)
-    t.start()
-    t1 = PostUnusualThread(time0-1)
-    t1.start()
-    temp_file_name = ""
+    face_cascade = cv2.CascadeClassifier('./data/haarcascade_frontalface_default.xml')
+    eye_cascade = cv2.CascadeClassifier('./data/haarcascade_eye_tree_eyeglasses.xml')
     count = 1
-    print(success)
     while success and cv2.waitKey(10) != -1  :
-        filename = 'camera-' + str(int(time.time())) + ".jpg"
-        print(filename)
-        if filename != temp_file_name :
+	print(time.time())
+        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+        faces = face_cascade.detectMultiScale(gray, 1.3, 3)
+        eyes = eye_cascade.detectMultiScale(gray, 1.3, 3)
+	flag = False
+        if faces is not None and len(faces) > 0:
+            flag = True
+        elif eyes is not None and len(eyes) > 0:
+            flag = True
+        if flag:
+            filename = 'camera-' + time.strftime('%Y%m%d%H%M%S', time.localtime(time.time())) + ".jpg"
+            
             file_path = './unusual/' + filename
-            cv2.imwrite(file_path,frame);
-        count += 1
+            for(x,y,w,h) in faces:
+	        frame = cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),1)
+            cv2.imwrite(file_path, frame)
+	    with open(file_path, 'rb') as fileObj:
+                image_data = fileObj.read()
+                content = base64.b64encode(image_data)
+                params = {"content": content, "filename": filename}
+                print(post(server_url, params))
         #frame = cv2.flip(frame, 0)
+        #if count % 5 == 0 :
         videoWrite.write(frame)
+        count += 1
         success, frame = cameraCapture.read()
     cameraCapture.release()
 
