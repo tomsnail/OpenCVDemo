@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf504919-af70-4f07-bfd0-f2aff99a1f9e" name="Default Changelist" comment="" />
+    <list default="true" id="cf504919-af70-4f07-bfd0-f2aff99a1f9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Convolution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Floyd-Steinberger Dither.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Image deformation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Uniform_quantilization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/mage Rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Canny.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Harris_Corner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/HoG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Image_Matches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Laplacian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Magnitude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/SIFT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Sobel_Prewitt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/job.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/g8-output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/picture_face_recog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/webcam_face.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/要求与说明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/说明.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,29 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensorflow/t1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="87" column="27" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://F:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/framework/ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30609">
-              <caret line="1658" selection-start-line="1658" selection-end-line="1658" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -78,6 +80,22 @@
         <option value="$PROJECT_DIR$/c4/c41.py" />
         <option value="$PROJECT_DIR$/c2/l2.py" />
         <option value="$PROJECT_DIR$/tensorflow/t1.py" />
+        <option value="$PROJECT_DIR$/learn/C02/01/webcam_face.py" />
+        <option value="$PROJECT_DIR$/learn/C02/01/picture_face_recog.py" />
+        <option value="$PROJECT_DIR$/learn/C01/01/Uniform_quantilization.py" />
+        <option value="$PROJECT_DIR$/learn/C01/01/mage Rotate.py" />
+        <option value="$PROJECT_DIR$/learn/C01/01/Image deformation.py" />
+        <option value="$PROJECT_DIR$/learn/C01/01/Floyd-Steinberger Dither.py" />
+        <option value="$PROJECT_DIR$/learn/C01/01/Convolution.py" />
+        <option value="$PROJECT_DIR$/learn/C01/02/Canny.py" />
+        <option value="$PROJECT_DIR$/learn/C01/02/Harris_Corner.py" />
+        <option value="$PROJECT_DIR$/learn/C01/02/HoG.py" />
+        <option value="$PROJECT_DIR$/learn/C01/02/Laplacian.py" />
+        <option value="$PROJECT_DIR$/learn/C01/01/job.py" />
+        <option value="$PROJECT_DIR$/learn/C01/02/Magnitude.py" />
+        <option value="$PROJECT_DIR$/learn/C01/02/SIFT.py" />
+        <option value="$PROJECT_DIR$/learn/C01/02/job.md" />
+        <option value="$PROJECT_DIR$/learn/C01/02/Sobel_Prewitt.py" />
       </list>
     </option>
   </component>
@@ -108,16 +126,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../02_open_source/pycv" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn/C01/02/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\02_workspace\33_git_open\OpenCVDemo\python\OpenCV\c4\data" />
-      <recent name="G:\02_workspace\33_git_open\OpenCVDemo\python\OpenCV\c3" />
-      <recent name="G:\02_workspace\33_git_open\OpenCVDemo\python\OpenCV\c2" />
-      <recent name="G:\02_workspace\41_scripts\OpenCV\c3" />
-      <recent name="G:\02_workspace\41_scripts\OpenCV\c2" />
+      <recent name="H:\workspace\07_git_open\OpenCVDemo\python\OpenCV\learn\C01\02\images" />
+      <recent name="H:\workspace\07_git_open\OpenCVDemo\python\OpenCV\learn\C01\01\images" />
+      <recent name="H:\workspace\07_git_open\OpenCVDemo\python\OpenCV\learn\C02\01" />
+      <recent name="H:\workspace\07_git_open\OpenCVDemo\python\OpenCV\learn\C02" />
+      <recent name="H:\workspace\07_git_open\OpenCVDemo\python\OpenCV\learn\C01\01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\workspace\07_git_open\OpenCVDemo\python\OpenCV\learn\C01\02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,8 +154,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t1">
-    <configuration name="c41" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.HoG">
+    <configuration name="HoG" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn/C01/02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c4/c41.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn/C01/02/HoG.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello_tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Laplacian" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn/C01/02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello_tensorflow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn/C01/02/Laplacian.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +197,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="l2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Magnitude" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +205,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn/C01/02" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c2/l2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn/C01/02/Magnitude.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SIFT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn/C01/02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn/C01/02/SIFT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sobel_Prewitt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learn/C01/02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learn/C01/02/Sobel_Prewitt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,48 +302,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/t1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="xstdcz" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.t1" />
-        <item itemvalue="Python.c41" />
-        <item itemvalue="Python.hello_tensorflow" />
-        <item itemvalue="Python.l2" />
-        <item itemvalue="Python.t" />
+        <item itemvalue="Python.HoG" />
+        <item itemvalue="Python.Sobel_Prewitt" />
+        <item itemvalue="Python.SIFT" />
+        <item itemvalue="Python.Magnitude" />
+        <item itemvalue="Python.Laplacian" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553608469335</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/OpenCV.iml&#10;#&#9;python/OpenCV/.idea/misc.xml&#10;#&#9;python/OpenCV/.idea/workspace.xml">
+      <created>1553685608394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553685608394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -374,18 +403,18 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19581749" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.33016476" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49683145" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7490494" weight="0.32884097" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921197" weight="0.3998441" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.74588084" weight="0.088948786" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49873257" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6634981" weight="0.17924528" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49873257" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.25095057" side_tool="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.25411913" side_tool="true" visible="true" weight="0.34097034" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.38409704" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,108 +424,10 @@
     <MESSAGE value="update plt features" />
     <MESSAGE value="update camera" />
     <MESSAGE value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/OpenCV.iml&#10;#&#9;python/OpenCV/.idea/misc.xml&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/OpenCV.iml&#10;#&#9;python/OpenCV/.idea/misc.xml&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/cm.py" />
-    <entry file="file://$PROJECT_DIR$/c3/s10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/s9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/s8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/s7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/s6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/s5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c3/card.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/image.py" />
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/PIL/Image.py" />
-    <entry file="file://$PROJECT_DIR$/c2/s5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2/readme.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t.py" />
-    <entry file="file://$PROJECT_DIR$/c3/deep_orc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2/l3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c2/l1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172626.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172627.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172628.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172630.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172629.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172625.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172622.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172620.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172618.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/camera-20190321172617.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321172956.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321172959.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173002.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173005.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173008.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173011.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173017.jpg" />
-    <entry file="file://$PROJECT_DIR$/c4/image/camera-20190321173020.jpg" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1780615201/cv2/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/c4/data/haarcascade_frontalface_alt_tree.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/data/haarcascade_eye_tree_eyeglasses.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/data/haarcascade_frontalface_default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632947">
-          <caret line="33313" column="17" selection-start-line="33313" selection-start-column="17" selection-end-line="33313" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/__init__.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/568023651/cv2/CascadeClassifier.py" />
-    <entry file="file://$PROJECT_DIR$/c3/orc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="50" column="59" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/c3/my_orc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -525,43 +456,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/c2/bilateralFilter.jpg" />
-    <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/c44.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="11" />
-          <folding>
-            <element signature="e#24#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/c43.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/c4/c41.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="119" column="34" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/c44.py" />
+    <entry file="file://$PROJECT_DIR$/c4/c43.py" />
+    <entry file="file://$PROJECT_DIR$/c4/c41.py" />
     <entry file="file://$PROJECT_DIR$/tensorflow/t1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -576,6 +473,325 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30609">
           <caret line="1658" selection-start-line="1658" selection-end-line="1658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/image/2008_001009.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/knn_resource/train/kit_harington/john1.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/knn_resource/train/kit_harington/john2.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://F:/ProgramData/Anaconda3/Lib/site-packages/sklearn/neighbors/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="130" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/05_fr_knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="80" column="52" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="52" />
+          <folding>
+            <element signature="e#1494#1505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/06_knn_camera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c5/01_mov.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c5/02_knn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c5/03_person_mov.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c4/04_base_face_recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://H:/lscj/计算机视觉：从入门到精通，极限剖析图像识别学习算法（第二期）/1/Dataguru/Convolution.py" />
+    <entry file="file://$PROJECT_DIR$/TestNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/g8-output.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/g1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/g5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/webcam_face.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/g8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/picture_face_recog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/input_small.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/说明.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/01/Uniform_quantilization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/01/mage Rotate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/01/Floyd-Steinberger Dither.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/01/Convolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/01/Image deformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/568023651/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/haarcascade_frontalface_default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/Canny.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/ProgramData/Anaconda3/Lib/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/Image_Matches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/Laplacian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/568023651/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="7761" column="60" lean-forward="true" selection-start-line="7761" selection-start-column="60" selection-end-line="7761" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/01/job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/Magnitude.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/SIFT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/Harris_Corner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="43" column="44" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/Sobel_Prewitt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/job.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C01/02/HoG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="64" selection-start-line="87" selection-start-column="64" selection-end-line="87" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn/C02/01/要求与说明.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
