@@ -2,36 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf504919-af70-4f07-bfd0-f2aff99a1f9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c3/face_betu_fr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/03_dlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/04_base_face_recognition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/05_fr_knn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/06_knn_camera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/knn_resource/train/kit_harington/john1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c4/knn_resource/train/kit_harington/john2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c5/01_mov.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c5/02_knn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c5/03_person_mov.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c5/04_jc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c5/resource/traffic.flv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pi/clound/face_capture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pi/clound/face_recogintion_tensorflow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pi/clound/face_recogintiond_dlib.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pi/clound/images/camera-20190325103711.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Convolution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Floyd-Steinberger Dither.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Image deformation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/Uniform_quantilization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/01/mage Rotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Canny.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Harris_Corner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/HoG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Image_Matches.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Laplacian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Magnitude.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/SIFT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/Sobel_Prewitt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C01/02/job.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/g8-output.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/picture_face_recog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/webcam_face.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/要求与说明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn/C02/01/说明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/datas/mnist/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/datas/mnist/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/datas/mnist/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/datas/mnist/train-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/t2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/t3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/t4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNum.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestNum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/c41.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4/01_camera_capture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/c42.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4/02_openvc_fr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/c43.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/c44.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/data/haarcascade_licence_plate_rus_16stages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/c4/data/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/data/lbpcascade_frontalface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/c4/data/lbpcascade_frontalface.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/data/lbpcascade_frontalface_improved.xml" beforeDir="false" afterPath="$PROJECT_DIR$/c4/data/lbpcascade_frontalface_improved.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/data/lbpcascade_profileface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/c4/data/lbpcascade_profileface.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/c4/data/lbpcascade_silverware.xml" beforeDir="false" afterPath="$PROJECT_DIR$/c4/data/lbpcascade_silverware.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pi/clound/face_recogintiond.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pi/clound/http_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi/clound/http_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,94 +42,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c4/04_base_face_recognition.py">
+        <entry file="file://$PROJECT_DIR$/tensorflow/t1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state>
               <folding>
-                <element signature="e#24#47#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c4/05_fr_knn.py">
+        <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#1494#1505#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c5/01_mov.py">
+        <entry file="file://$PROJECT_DIR$/tensorflow/c01/t3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="42" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="41" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c5/02_knn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c5/03_person_mov.py">
+        <entry file="file://$PROJECT_DIR$/tensorflow/c01/t4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2096">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="377">
+              <caret line="172" column="56" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="56" />
               <folding>
-                <element signature="e#395#405#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c5/04_jc.py">
+        <entry file="file://$PROJECT_DIR$/tensorflow/c01/t2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="18" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c4/06_knn_camera.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c4/03_dlib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -187,14 +150,18 @@
         <option value="$PROJECT_DIR$/c4/04_base_face_recognition.py" />
         <option value="$PROJECT_DIR$/c4/06_knn_camera.py" />
         <option value="$PROJECT_DIR$/c5/03_person_mov.py" />
+        <option value="$PROJECT_DIR$/tensorflow/c01/t3_1.py" />
+        <option value="$PROJECT_DIR$/tensorflow/c01/t2.py" />
+        <option value="$PROJECT_DIR$/tensorflow/c01/t3.py" />
+        <option value="$PROJECT_DIR$/tensorflow/c01/t4.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="39" />
     <option name="y" value="23" />
-    <option name="width" value="995" />
-    <option name="height" value="745" />
+    <option name="width" value="1401" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,42 +179,52 @@
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
-              <item name="knn_resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c4" type="462c0819:PsiDirectoryNode" />
-              <item name="knn_resource" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
               <item name="c5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c5" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="C01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="C02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="pi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="pi" type="462c0819:PsiDirectoryNode" />
+              <item name="clound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="pi" type="462c0819:PsiDirectoryNode" />
+              <item name="edges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
+              <item name="c01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,6 +239,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tensorflow/c01/datas/mnist" />
       <recent name="G:\02_workspace\41_scripts\OpenCV\c3" />
       <recent name="G:\02_workspace\41_scripts\OpenCV\c2" />
       <recent name="G:\02_workspace\41_scripts\OpenCV" />
@@ -279,49 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.03_person_mov">
-    <configuration name="01_mov" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c5/01_mov.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="02_knn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c5/02_knn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.t4">
     <configuration name="03_person_mov" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -343,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_jc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="hello_tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -351,32 +287,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c5/04_jc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="06_knn_camera" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/c4/06_knn_camera.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello_tensorflow.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -427,6 +342,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="t2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow/c01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/c01/t2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow/c01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/c01/t3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow/c01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/c01/t4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xstdcz" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -450,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t4" />
+        <item itemvalue="Python.t3" />
+        <item itemvalue="Python.t2" />
+        <item itemvalue="Python.hello_tensorflow" />
         <item itemvalue="Python.03_person_mov" />
-        <item itemvalue="Python.04_jc" />
-        <item itemvalue="Python.02_knn" />
-        <item itemvalue="Python.01_mov" />
-        <item itemvalue="Python.06_knn_camera" />
       </list>
     </recent_temporary>
   </component>
@@ -489,21 +467,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="995" height="745" extended-state="0" />
+    <frame x="39" y="23" width="1401" height="877" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.23819517" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2612215" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49763593" weight="0.32969603" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.613851" weight="0.3338438" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6129507" visible="true" weight="0.2866242" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921197" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49852726" weight="0.32866243" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.386149" side_tool="true" visible="true" weight="0.3338438" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3870493" side_tool="true" weight="0.33375797" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969603" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -518,13 +496,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/c3/idImg.png" />
-    <entry file="file://$PROJECT_DIR$/c3/binary.png" />
-    <entry file="file://$PROJECT_DIR$/c3/card_template.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/__init__.py" />
-    <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/axes/_axes.py" />
     <entry file="file://E:/Users/yangsong/Anaconda3/Lib/site-packages/matplotlib/cm.py" />
     <entry file="file://$PROJECT_DIR$/c3/s10.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -581,13 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -724,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/03_dlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="975">
           <caret line="68" column="14" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
         </state>
       </provider>
@@ -734,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/04_base_face_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="360">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#24#47#0" expanded="true" />
@@ -750,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/06_knn_camera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="210">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -760,8 +724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c4/05_fr_knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#1494#1505#0" expanded="true" />
           </folding>
@@ -770,8 +734,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c5/04_jc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="870">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -780,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c5/02_knn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="390">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -790,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c5/01_mov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="45">
           <caret line="4" column="42" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="42" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
@@ -800,10 +764,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c5/03_person_mov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2096">
+        <state relative-caret-position="15">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#395#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/t1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/OpenCV/lib/python3.6/site-packages/tensorflow/python/training/gradient_descent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/c01/t2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/c01/t3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/c01/t4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="172" column="56" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
