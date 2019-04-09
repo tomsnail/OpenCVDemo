@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf504919-af70-4f07-bfd0-f2aff99a1f9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c4/knn_resource/model/trained_knn_model.clf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/data/mnist_10k_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/a_model.ckpt-1001.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/a_model.ckpt-1001.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/a_model.ckpt-1001.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/events.out.tfevents.1554737600.localhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/metadata1.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/mnist_10k_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/logs/projector/projector/projector_config.pbtxt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensorflow/c01/t5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensorflow/c01/t6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow/c01/t4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow/c01/t4.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,76 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorflow/t1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello_tensorflow.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorflow/c01/t3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorflow/c01/t4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" selection-start-line="8" selection-end-line="51" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensorflow/c01/t5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="182" selection-start-line="182" selection-end-line="182" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorflow/c01/t2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -150,6 +71,7 @@
         <option value="$PROJECT_DIR$/tensorflow/c01/t3.py" />
         <option value="$PROJECT_DIR$/tensorflow/c01/t4.py" />
         <option value="$PROJECT_DIR$/tensorflow/c01/t5.py" />
+        <option value="$PROJECT_DIR$/tensorflow/c01/t6.py" />
       </list>
     </option>
   </component>
@@ -175,45 +97,6 @@
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="c5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="C01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="C02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="pi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="pi" type="462c0819:PsiDirectoryNode" />
-              <item name="clound" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="pi" type="462c0819:PsiDirectoryNode" />
-              <item name="edges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
               <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,7 +118,7 @@
               <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
               <item name="c01" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
-              <item name="projector" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
@@ -243,17 +126,11 @@
               <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
               <item name="c01" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
-              <item name="projector" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="tensorflow" type="462c0819:PsiDirectoryNode" />
-              <item name="c01" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-              <item name="projector" type="462c0819:PsiDirectoryNode" />
-              <item name="projector" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -287,28 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.t5">
-    <configuration name="hello_tensorflow" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello_tensorflow.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.t6">
     <configuration name="lb" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -435,6 +291,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="t6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow/c01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow/c01/t6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xstdcz" type="PythonConfigurationType" factoryName="Python">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -458,11 +335,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t6" />
         <item itemvalue="Python.t5" />
         <item itemvalue="Python.t4" />
         <item itemvalue="Python.t3" />
         <item itemvalue="Python.t2" />
-        <item itemvalue="Python.hello_tensorflow" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554617715072</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/OpenCV.iml&#10;#&#9;python/OpenCV/.idea/misc.xml&#10;#&#9;python/OpenCV/.idea/workspace.xml">
+      <created>1554737906072</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554737906072</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -511,12 +395,12 @@
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26490065" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49763593" weight="0.32866243" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6129507" visible="true" weight="0.28535032" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6129507" visible="true" weight="0.43949044" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49921197" weight="0.3987261" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969603" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49852726" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3870493" side_tool="true" weight="0.33375797" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32969603" />
@@ -534,9 +418,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/tomsnail/OpenCVDemo&#10;&#10;# Conflicts:&#10;#&#9;python/OpenCV/.idea/OpenCV.iml&#10;#&#9;python/OpenCV/.idea/misc.xml&#10;#&#9;python/OpenCV/.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/c3/s10.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/c3/s9.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -864,8 +745,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow/c01/t5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow/c01/t6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="124" column="28" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
